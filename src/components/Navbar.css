@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex; /* added flexbox */
+  }
+
+
+
+
+ 
+ 

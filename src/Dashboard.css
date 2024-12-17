@@ -1,0 +1,40 @@
+b {
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+
+ /* Add this to your src/Dashboard.css file */
+
+/* Desktop layout */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Tablet layout (768px and below) */
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+/* Mobile layout (480px and below) */
+@media (max-width: 480px) {
+  .dashboard-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+/* Mobile layout (320px and below) */
+@media (max-width: 320px) {
+  .dashboard-container {
+    padding: 5px;
+  }
+}

@@ -1,0 +1,35 @@
+.mb-7 {
+    margin-bottom: 7px;
+  }
+  
+  .mb-4 {
+    margin-bottom: 4px;
+  }
+  
+  h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    color : white;
+  }
+  
+  h1 {
+    font-weight: 600 !important; /* SemiBold */
+    font-size: 65px !important;
+  }
+  
+  h2 {
+    font-weight: 500 !important; /* Regular */
+    font-size: 30px !important;
+    
+  }
+
+  body {
+    background-color: #000 !important;
+  }
+
+  .login-container h1, .login-container h2 {
+    margin-bottom: 0;
+    text-align: left;
+  }
+  
+  
+  
